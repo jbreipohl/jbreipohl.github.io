@@ -1,0 +1,14 @@
+body{
+	background-color:darkgray;
+	font-family: "CaviarDreams.ttf";
+	color: blue;
+}
+
+a:link, a:visited {
+    background-color: gray;
+    color: blue;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
