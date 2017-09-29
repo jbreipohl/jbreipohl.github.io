@@ -1,6 +1,6 @@
 body{
 	background-color:darkgray;
-	font-family: "CaviarDreams.ttf";
+	font-family: "TT Norms Thin";
 	color: blue;
 }
 
@@ -10,5 +10,32 @@ a:link, a:visited {
     padding: 10px 10px;
     text-align: center;
     text-decoration: none;
-    display: block;
+    display: square;
+}
+
+a:hover, a:active {
+    color: gray;
+    background-color: blue;
+}
+
+table {
+	width:80%;
+	margin-left: 3px;
+	margin-right: 3px;
+	text-align: center;
+}
+td {
+	vertical-align: middle;
+}
+
+tr {
+	border: 3px blue;
+	text-align: center;
+	background-color:gray; 
+}
+
+th {
+	text-align: center;
+	color: blue;
+	background-color: gray;
 }
